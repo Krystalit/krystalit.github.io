@@ -9,3 +9,30 @@ function Search(){
       window.location.assign(web);
 	 }
 }
+
+// var speed=30
+//       r.innerHTML=rollimg.innerHTML
+//       function Marquee1(){
+      
+//       if(r.offsetTop-roll.scrollTop<=0)& <60;& <60;
+//       roll.scrollTop-=rollimg.offsetHeight
+//       else{
+//       roll.scrollTop++;
+//       }
+//       }
+//       var MyMar1=setInterval(Marquee1,speed)
+      
+//       roll.onmouseover=function() {clearInterval(MyMar1)}
+      
+//       roll.onmouseout=function(){MyMar1=setInterval(Marquee1,speed)}
+
+let rollImg = document.getElementById("rollimg");
+
+rollImg.onclick = function(){
+      let rollSrc = rollImg.getAttribute('src');
+      if(rollSrc === 'images/eboard.jpg') {
+        rollImg.setAttribute('src', 'images/desklaptop.jpg');
+      } else{
+        myImage.setAttribute('src', 'images/oldbooks.png');
+      }
+}
