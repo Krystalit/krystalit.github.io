@@ -186,3 +186,13 @@ background:black;
 	background:#F5F5F5;
 	color: #BA93C2;
 }
+
+.bgImg{
+  background-image: url(images/bilibili.png);
+   background-repeat:no-repeat;
+}
+
+.Wi{
+  text-align: left;
+	color: #ffffff;
+}
