@@ -10,21 +10,11 @@ function Search(){
 	 }
 }
 
-// var speed=30
-//       r.innerHTML=rollimg.innerHTML
-//       function Marquee1(){
-      
-//       if(r.offsetTop-roll.scrollTop<=0)& <60;& <60;
-//       roll.scrollTop-=rollimg.offsetHeight
-//       else{
-//       roll.scrollTop++;
-//       }
-//       }
-//       var MyMar1=setInterval(Marquee1,speed)
-      
-//       roll.onmouseover=function() {clearInterval(MyMar1)}
-      
-//       roll.onmouseout=function(){MyMar1=setInterval(Marquee1,speed)}
+let Blink = document.getElementById("roll");
+
+Blink.onclick = function(){
+  window.location.assign("https://www.bilibili.com");
+}
 
 let rollImg = document.getElementById("rollimg");
 
