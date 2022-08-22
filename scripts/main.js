@@ -17,12 +17,10 @@ Blink.onclick = function(){
 }
 
 let rollImg = document.getElementById("rollimg");
+let rollImg2 = document.getElementById("rollimg2");
 
-rollImg.onclick = function(){
-      let rollSrc = rollImg.getAttribute('src');
-      if(rollSrc === 'images/eboard.jpg') {
-        rollImg.setAttribute('src', 'images/desklaptop.jpg');
-      } else{
-        myImage.setAttribute('src', 'images/oldbooks.png');
-      }
-}
+
+
+setInterval(function (){
+	
+},7000);
