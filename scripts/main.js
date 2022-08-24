@@ -41,12 +41,12 @@ function topImage(){
 	if (LnkSta == 0){
 
 		ShowB;
-		let LnkSta = 1;}
+		var LnkSta = 1;}
 
 	else{
 
 		ShowMW;
-		let LnkSta = 0;}
+		var LnkSta = 0;}
 
 }
 
