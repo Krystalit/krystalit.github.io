@@ -26,16 +26,30 @@ MWlink.onclick = function(){
 let rollImg = document.getElementById("rollimg");
 let rollImg2 = document.getElementById("rollimg2");
 
+function ShowB(){
+	Blink.style.display = "block";
+	MWlink.style.display = "none";
+}
 
+function ShowMW(){
+	Blink.style.display = "none";
+	MWlink.style.display = "block";
+}
 
-setInterval(function (){
+function topImage(){
+
 	if (LnkSta == 0){
-        	function ShowB(){Blink.style.display = "block";}
-		function HideMW(){MWlink.style.display = "none";}
+
+		ShowB;
 		let LnkSta = 1;}
+
 	else{
-		function ShowMW(){MWlink.style.display = "block";}
-		function HideB(){Blink.style.display = "none";}
+
+		ShowMW;
 		let LnkSta = 0;}
-	
-},7000);
+
+}
+
+setInterval(topImage,7000);
+
+
