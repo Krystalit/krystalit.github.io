@@ -32,10 +32,10 @@ setInterval(function (){
 	if (LnkSta == 0){
         	function ShowB(){Blink.style.display = "block";}
 		function HideMW(){MWlink.style.display = "none";}
-		let LnkSta = 1;
-	}else{
+		let LnkSta = 1;}
+	else{
 		function ShowMW(){MWlink.style.display = "block";}
 		function HideB(){Blink.style.display = "none";}
-		let LnkSta = 0;
+		let LnkSta = 0;}
 	
 },7000);
