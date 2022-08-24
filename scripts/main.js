@@ -12,7 +12,7 @@ function Search(){
 
 let Blink = document.getElementById("roll");
 let MWlink = document.getElementById("roll1");
-let LnkSta = 0;
+var LnkSta = 0;
 
 Blink.onclick = function(){
   window.location.assign("https://www.bilibili.com");
