@@ -213,10 +213,10 @@ background:black;
 
 .TransIn{
   bottom: 0;
-  height: 80px;
+  height: 10px;
   width: 100%;
   background-color: #fff;
-  box-shadow: 0 5px 30px 10px rgba(3, 3, 3, 3);
+  box-shadow: 0 5px 3px 1px rgba(3, 3, 3, 3);
 }
 
 .TransIn :hover {
