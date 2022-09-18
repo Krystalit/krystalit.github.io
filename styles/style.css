@@ -203,3 +203,23 @@ background:black;
 	color:#ffffff;
  
 }
+
+.TransSelect{
+  width:20%;
+  float:left;
+  min-height: 470px;
+  overflow: hidden;
+}
+
+.TransIn{
+  bottom: 0;
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 5px 30px 10px rgba(3, 3, 3, 3);
+}
+
+.TransIn :hover {
+  transform: translateY(calc(70px + 1em));
+  transition: transform 0.3s;
+}

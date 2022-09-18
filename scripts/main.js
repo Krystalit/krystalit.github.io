@@ -12,7 +12,7 @@ function Search(){
 
 let Blink = document.getElementById("roll");
 let MWlink = document.getElementById("roll1");
-let GTlink = document.getElementById("roll2");
+
 var LnkSta = 0;
 
 Blink.onclick = function(){
@@ -21,10 +21,6 @@ Blink.onclick = function(){
 
 MWlink.onclick = function(){
   window.location.assign("https://www.merriam-webster.com/");
-}
-
-GTlink.onclick = function(){
-  window.location.assign("https://translate.google.cn/");
 }
 
 
