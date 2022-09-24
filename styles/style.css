@@ -230,3 +230,19 @@ background:black;
   background-color: #bebebeeb;
   box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.4);
 }
+
+.vid{
+  width:60%;height: 470px;
+  float: left;
+  min-height: 470px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+.dict{
+  float: left;
+  width: 100%;
+  height: 300px;
+  background: url(../images/oldbooks.jpg);
+}
