@@ -208,7 +208,7 @@ background:black;
   color: #ffffff;
   border-radius: 10px;
     background: linear-gradient(145deg, #c08864, #cabb8a);
-    box-shadow:  3px 3px 5px #616161,
+    box-shadow:  -3px -3px 5px #707070,
     
 }
 
