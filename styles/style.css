@@ -92,6 +92,12 @@ height:65px;
 width:100%;
 }
 
+.spbig{
+  display:block;
+  height:400px;
+  width:100%;
+  }
+
 /*top*/
 
 @font-face {
@@ -111,13 +117,13 @@ height:auto;
 }
 
 .lefront{
-float:left;
+float:left ;
 width:70%;
 height:100%;
 }
 
 .rifront{
-float:left;
+float: left;
 width:30%;
 height:100%;
 }
@@ -125,11 +131,12 @@ height:100%;
 .ar{
 width:auto;
 border-radius: 50px;
-background: linear-gradient(145deg, #ffffff, #e7e7e7);
-box-shadow:  10px 10px 10px #d5d5d5,
+background: linear-gradient(145deg, #ffffff, #f1f0f0);
+box-shadow:  5px 10px 10px #d5d5d5,
              -5px -5px 5px #ffffff;
 
 }
+
 .atw{
   width: auto;
 }
@@ -159,6 +166,9 @@ h1{
  font-family: Source Hans Heavy;
 }
 
+h2{
+  font-family: Source Hans Heavy;
+}
 p:hover{
   font-size:17px;
   color: #e48f8f;
@@ -196,7 +206,7 @@ background:black;
   
 .bl{
   border-radius: 50px;
-    background: linear-gradient(145deg, #ffffff, #e7e7e7);
+    background: linear-gradient(145deg, #ffffff, #f1f0f0);
     box-shadow:  20px 20px 20px #d5d5d5,
             -20px -20px 20px #ffffff;
   display: block;
@@ -247,7 +257,7 @@ background:black;
 }
 
 .content {
-  background-color: #bebebeeb;
+  background-color: #d0d0d0d9;
   box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -262,7 +272,7 @@ background:black;
 
 .dict{
   float: left;
-  width: 75%;
+  width: 70%;
   height: 300px;
   background: url(../images/oldbooks.jpg);
   color: #ffffff;
@@ -270,7 +280,7 @@ background:black;
 
 .math{
   float: left;
-  width: 25%;
+  width: 30%;
   height: 300px;
   background: url(../images/eboard.jpg);
   color: #ffffff;
