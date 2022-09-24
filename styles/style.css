@@ -94,7 +94,7 @@ width:100%;
 
 .spbig{
   display:block;
-  height:400px;
+  height:300px;
   width:100%;
   }
 
@@ -132,7 +132,7 @@ height:100%;
 width:auto;
 border-radius: 50px;
 background: linear-gradient(145deg, #ffffff, #f1f0f0);
-box-shadow:  5px 10px 10px #d5d5d5,
+box-shadow:  5px 5px 5px #d5d5d5,
              -5px -5px 5px #ffffff;
 
 }
@@ -204,12 +204,12 @@ background:black;
   display:inline-block;
 }
   
-.bl{
-  border-radius: 50px;
-    background: linear-gradient(145deg, #ffffff, #f1f0f0);
-    box-shadow:  20px 20px 20px #d5d5d5,
-            -20px -20px 20px #ffffff;
-  display: block;
+.po{
+  color: #ffffff;
+  border-radius: 10px;
+    background: linear-gradient(145deg, #c08864, #cabb8a);
+    box-shadow:  3px 3px 5px #616161,
+    
 }
 
 ::selection{
