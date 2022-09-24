@@ -113,7 +113,7 @@ height:100%;
 width:auto;
 border-radius: 50px;
 background: linear-gradient(145deg, #ffffff, #e7e7e7);
-box-shadow:  15px 15px 15px #d5d5d5,
+box-shadow:  10px 10px 10px #d5d5d5,
              -5px -5px 5px #ffffff;
 
 }
@@ -242,7 +242,16 @@ background:black;
 
 .dict{
   float: left;
-  width: 100%;
+  width: 75%;
   height: 300px;
   background: url(../images/oldbooks.jpg);
+  color: #ffffff;
+}
+
+.math{
+  float: left;
+  width: 25%;
+  height: 300px;
+  background: url(../images/eboard.jpg);
+  color: #ffffff;
 }
