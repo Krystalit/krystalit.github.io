@@ -34,6 +34,7 @@ top:0;
 .htop{
 color:#BA93C2;
 float: left;
+font-family: Source Hans Heavy;
 }
 
 .ltop{
@@ -75,6 +76,7 @@ display: -webkit-box;
   margin:0px 10px 0px 0px;
   background:#fff9fe;
   text-align:center;
+  font-family: Source Hans;
 }
 
 .lrift:hover{
@@ -91,6 +93,17 @@ width:100%;
 }
 
 /*top*/
+
+@font-face {
+  font-family: Source Hans;
+  src: url(../fonts/SourceHanSans-Regular.otf);
+}
+
+@font-face {
+  font-family: Source Hans Heavy;
+  src: url(../fonts/SourceHanSans-Heavy.otf);
+}
+
 .frontpage{
 display:block;
 width:100%;
@@ -129,6 +142,7 @@ img {
 a:link {
   color:#BA93C2;
   text-decoration: none;
+  font-family: Source Hans;
 }
 
 a:visited {
@@ -142,6 +156,7 @@ a:hover {
 
 h1{
  text-align:center;
+ font-family: Source Hans Heavy;
 }
 
 p:hover{
@@ -151,19 +166,23 @@ p:hover{
 
 li.b:hover{
   font-size:17px;
+  font-family: Source Hans;
 }
 
 p{
 font-size:16px;
 transition: ease 1s;
+font-family: Source Hans;
 }
 
 l{
 font-size:16px;
+font-family: Source Hans;
 }
 
 .mid{
 text-align:center;
+font-family: Source Hans Heavy;
 }
 
 .dg{
@@ -192,6 +211,7 @@ background:black;
 .Wi{
   text-align: left;
 	color: #ffffff;
+  font-family: Source Hans Heavy;
 }
 
 .Relate{
