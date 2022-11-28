@@ -333,3 +333,69 @@ span.kdr {
 span.kdr > :nth-child(1) {
   grid-area: sidebar;
 }
+
+
+.clock {
+  display: flex;
+	flex-direction: column;
+}
+
+.clock__block {
+	background-color: rgba(146, 138, 146, 0.333);
+	border-radius: 20px;
+	box-shadow: 0 2px 3px #707070;
+	font-size: 2em;
+	line-height: 2;
+	overflow: hidden;
+	text-align: center;
+	width: 4rem;
+	height: 4rem;
+}
+.clock__colon {
+	font-size: 2em;
+	position: relative;
+}
+
+.clock__digit-group {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.clock__block--bounce {
+	animation: bounce 0.7s; 
+}
+.clock__block--bounce .clock__digit-group {
+	animation: roll 0.7s ease-in-out forwards; 
+	transform: translateY(-50%);
+}
+
+
+@media (min-width: 768px) {
+	.clock {
+		flex-direction: row;
+	}
+	.clock__colon {
+		display: inherit;
+	}
+}
+
+/* Animations */
+@keyframes bounce {
+	from,
+	to {
+		animation-timing-function: ease-in;
+		transform: translateY(0);
+	}
+	50% {
+		animation-timing-function: ease-out;
+		transform: translateY(20%);
+	}
+}
+@keyframes roll {
+	from {
+		transform: rotate(40deg)
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}
