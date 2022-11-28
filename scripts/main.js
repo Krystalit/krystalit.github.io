@@ -8,7 +8,7 @@ function Search(){
 
 let Blink = document.getElementById("roll");
 
-Blink.oncu = function(){
+Blink.onclick = function(){
 
 	var r=confirm("To bilibili?");
 	if (r==true){
