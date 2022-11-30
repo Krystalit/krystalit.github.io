@@ -1,10 +1,19 @@
 function Search(){
 	var input = prompt("Search on Baidu,if you want to cancel,input nothing and confirm","");
 	 if (input != ""){
-	  var web = "https://www.baidu.com/s?ie=utf-8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=" + input
-      window.location.assign(web);
-	 }
-}
+	  		var web = "https://www.baidu.com/s?ie=utf-8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=" + input
+     		window.location.assign(web);
+		}
+	}
+
+
+function Searen(){
+	var inpen = prompt("Search on Baidu's encyclopedia,if you want to cancel,input nothing and confirm","");
+		if (inpen != ""){
+			var enweb = "https://baike.baidu.com/item/" + inpen
+	   		window.location.assign(enweb);
+		}
+  }
 
 let Blink = document.getElementById("roll");
 
