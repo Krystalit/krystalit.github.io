@@ -1,3 +1,7 @@
+body {
+  background-color: #707070;
+}
+
 /*top*/
 div.top{
 width:100%;
@@ -21,7 +25,7 @@ float:right;
 width:50%;
 height:100%;
 border-radius: 133px;
-background: #fff9fe;
+background: #707070;
 }
 
 .itop{
@@ -56,7 +60,7 @@ display: -webkit-box;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: rgba(18, 20, 28, 0.7);
+    color: #fff;
     position: relative;
     top:30%;
     margin:0;
@@ -134,9 +138,10 @@ height:100%;
 .ar{
 width:auto;
 border-radius: 50px;
-background: linear-gradient(145deg, #ffffff, #f1f0f0);
-box-shadow:  5px 5px 5px #d5d5d5,
-             -5px -5px 5px #ffffff;
+background: linear-gradient(145deg, #707070, #656565);
+box-shadow:  5px 5px 5px #5f5f5f,
+             -5px -5px 5px #818181;
+             border-radius: 50px;
 
 }
 
@@ -153,11 +158,14 @@ a:link {
   color:#BA93C2;
   text-decoration: none;
   font-family: Source Hans;
+  background-color: #93a6c270;
 }
 
 a:visited {
   color: green;
   text-decoration: none;
+  font-family: Source Hans;
+  background-color: #93a6c270;
 }
 
 a:hover {
@@ -165,11 +173,13 @@ a:hover {
 }
 
 h1{
+ color: #fff;
  text-align:center;
  font-family: Source Hans Heavy;
 }
 
 h2{
+  color: #fff;
   font-family: Source Hans Heavy;
 }
 p:hover{
@@ -183,6 +193,7 @@ li.b:hover{
 }
 
 p{
+color: #fff;
 font-size:16px;
 transition: ease 1s;
 font-family: Source Hans;
@@ -239,13 +250,6 @@ background:black;
 ::selection{
 	background:#F5F5F5;
 	color: #BA93C2;
-}
-
-
-.Wi{
-  text-align: left;
-	color: #ffffff;
-  font-family: Source Hans Heavy;
 }
 
 .Relate{
