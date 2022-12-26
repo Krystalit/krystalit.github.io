@@ -312,6 +312,14 @@ background:black;
   color: #656565;
 }
 
+.left h1{
+  font-size: 30px;
+}
+
+.left h2{
+  font-size: 20px;
+}
+
 .right{
   float: left;
   width: 30%;
@@ -322,6 +330,10 @@ background:black;
 .right img{
   width: 65%;
   height: 65%;
+}
+
+.right h1{
+  font-size: 30px;
 }
 
 .math{
