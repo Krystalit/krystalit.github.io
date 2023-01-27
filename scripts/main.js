@@ -15,17 +15,6 @@ function Searen(){
 		}
   }
 
-let Blink = document.getElementById("roll");
-
-Blink.onclick = function(){
-
-	var r=confirm("To bilibili?");
-	if (r==true){
-    	window.location.assign("https://www.bilibili.com");
-	}
-    	
-}
-
 window.addEventListener("DOMContentLoaded",() => {
 	const clock = new Clock(".clock");
 });
