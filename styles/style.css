@@ -95,7 +95,7 @@ display: -webkit-box;
 
 .sptop{
 display:block;
-height:65px;
+height:40px;
 width:100%;
 }
 
@@ -199,6 +199,10 @@ transition: ease 1s;
 font-family: Source Hans;
 }
 
+.bb{
+  background-color: #101010;
+}
+
 l{
 font-size:16px;
 font-family: Source Hans;
@@ -260,7 +264,7 @@ background:black;
 }
 
 .TransSelect{
-  width:40%;
+  width:20%;
   min-height: 470px;
   overflow: hidden;
   position: relative;
@@ -289,13 +293,20 @@ background:black;
 }
 
 .vid{
-  width:60%; height: 235px;
+  width:80%; height: 350px;
   float: left;
   overflow: hidden;
   position: relative;
   z-index: 1;
 }
 
+.vid1{
+  width:80%; height: 120px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
 
 .dict{
   float: left;
