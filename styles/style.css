@@ -158,7 +158,7 @@ a:link {
   color:#BA93C2;
   text-decoration: none;
   font-family: Source Hans;
-  background-color: #93a6c270;
+  background-color: #5e6e8a69;
 }
 
 a:visited {
@@ -201,6 +201,7 @@ font-family: Source Hans;
 
 .bb{
   background-color: #101010;
+  margin: 0;
 }
 
 l{
@@ -263,9 +264,9 @@ background:black;
  
 }
 
-.TransSelect{
+.mSelect{
   width:20%;
-  min-height: 470px;
+  min-height: 520px;
   overflow: hidden;
   position: relative;
   z-index: 1
@@ -288,12 +289,12 @@ background:black;
 }
 
 .content {
-  background-color: #d0d0d0d9;
+  background-color: #949494d2;
   box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.4);
 }
 
 .vid{
-  width:80%; height: 350px;
+  width:80%; height: 400px;
   float: left;
   overflow: hidden;
   position: relative;
@@ -318,7 +319,7 @@ background:black;
 
 .left{
   float: left;
-  width: 70%;
+  width: 60%;
   height: auto;
   color: #656565;
 }
@@ -333,7 +334,7 @@ background:black;
 
 .right{
   float: left;
-  width: 30%;
+  width: 40%;
   height: auto;
   color: #656565;
 }
@@ -353,6 +354,13 @@ background:black;
   height: 300px;
   background: url(../images/eboard.jpg);
   color: #ffffff;
+}
+
+.card{
+  float: left;
+  width: 20%;
+  height: auto;
+  color: #656565;
 }
 
 
