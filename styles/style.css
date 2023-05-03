@@ -182,9 +182,15 @@ h2{
   color: #fff;
   font-family: Source Hans Heavy;
 }
+
 p:hover{
   font-size:17px;
   color: #e48f8f;
+}
+
+.music:hover{
+  font-size:17px;
+  color: #c1e48f;
 }
 
 li.b:hover{
@@ -255,13 +261,6 @@ background:black;
 ::selection{
 	background:#F5F5F5;
 	color: #BA93C2;
-}
-
-.Relate{
- background:grey;
- text-align:center;
-	color:#ffffff;
- 
 }
 
 .mSelect{
