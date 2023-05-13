@@ -265,7 +265,7 @@ background:black;
 
 .mSelect{
   width:20%;
-  min-height: 520px;
+  min-height: 620px;
   overflow: hidden;
   position: relative;
   z-index: 1
@@ -293,7 +293,7 @@ background:black;
 }
 
 .vid{
-  width:80%; height: 400px;
+  width:80%; height: 500px;
   float: left;
   overflow: hidden;
   position: relative;
