@@ -238,6 +238,11 @@ background:black;
     
 }
 
+.po p:hover{
+  font-size:17px;
+  color: #c1e48f;
+}
+
 .kdrg{
   display: inline-block;
   color: #ffffff;
@@ -265,7 +270,7 @@ background:black;
 
 .mSelect{
   width:20%;
-  min-height: 620px;
+  min-height:540px;
   overflow: hidden;
   position: relative;
   z-index: 1
@@ -293,7 +298,7 @@ background:black;
 }
 
 .vid{
-  width:80%; height: 500px;
+  width:80%; height: 430px;
   float: left;
   overflow: hidden;
   position: relative;
@@ -301,7 +306,7 @@ background:black;
 }
 
 .vid1{
-  width:80%; height: 120px;
+  width:80%; height: 110px;
   float: left;
   overflow: hidden;
   position: relative;
