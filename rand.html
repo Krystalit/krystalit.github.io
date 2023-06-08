@@ -50,21 +50,38 @@
   </div>
   <!--导航 End-->
     <div class="sptop"></div>
-    <div class="ar" style="float: left;">
+    <div class="ar">
 
         <p>单击下面的div后生成的随机数是: This is the number generated after you clicked the div:</p>
         <p id="num" style="font-size: 100px; text-align: center;"></p>
 
-        <div class="ar" onclick="generate()" style="float: left;">
+        <div class="ar" onclick="generate()">
 
             <p>Click here to generate an integer from one to ten (containing one and ten)</p>
             <p>点击这里来生成一个从一到十的整数（包含一与十）</p>
     
         </div>
 
-        <p style="display:block;"><a href="index.html#beforeusing">Before Using</a></p>
+    </div>
+
+    <div class="sptop" style="width: 100%";></div>
+
+    <div class="ar">
+
+        <p>同上，但是可生成十个随机数: Generate 10 numbers with the same rules</p>
+        <p id="numLot" style="font-size: 30px; text-align: center;"></p>
+
+        <div class="ar" onclick="genTen()">
+
+            <p>Click here 点击</p>
+    
+        </div>
+
 
     </div>
+
+    <p style="display:block;"><a href="index.html#beforeusing">Before Using</a></p>
+
     <script src="scripts/rand.js" defer></script>
 
 </body>

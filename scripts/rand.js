@@ -1,8 +1,13 @@
 var rand = Math.floor(Math.random()*10+1);
-var randstatus = 0;
+var randTen = [Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),
+    Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),
+    Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),
+    Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1)];
+var randStatus = 0;
+var randTenStatus = 0;
 
 function generate(){
-    if (randstatus == 0){
+    if (randStatus == 0){
 
         document.getElementById("num").innerHTML=rand;
     }
@@ -10,7 +15,23 @@ function generate(){
 
         var rand = Math.floor(Math.random()*10+1);
         document.getElementById("num").innerHTML=rand;
-        var randstatus = 1;
+        var randStatus = 1;
     }
 
+}
+
+function genTen(){
+    if (randTenStatus == 0){
+
+        document.getElementById("numLot").innerHTML=randTen;
+    }
+    else{
+
+        var randTen = [Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),
+            Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),
+            Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),
+            Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1),Math.floor(Math.random()*10+1)];
+        document.getElementById("numLot").innerHTML=randTen;
+        var randTenStatus = 1;
+    }
 }
