@@ -11,7 +11,6 @@ document.getElementById("num1").innerHTML=Rand1;
 document.getElementById("num2").innerHTML=rand2;
 document.getElementById("num3").innerHTML=rand3;
 
-
 function check(){
         if (Rand1+rand2+rand3 == document.getElementById("answer").value){
             document.getElementById("message").innerHTML="GREAT";
@@ -20,5 +19,4 @@ function check(){
         }
 
 }
-    
 
