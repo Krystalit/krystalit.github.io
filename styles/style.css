@@ -187,10 +187,13 @@ p:hover{
   font-size:17px;
   color: #e48f8f;
 }
+#news a:visited{
+  color: #224dc4;
+}
 
 .music:hover{
   font-size:17px;
-  color: #c1e48f;
+  color: #aacb7b;
 }
 
 li.b:hover{
@@ -478,4 +481,26 @@ h3{
   border: 10px solid #ba93c263;
   align-self: center;
   border-radius: 10px;
+}
+
+.menu{
+  float: left;
+  width:auto;
+  background: linear-gradient(145deg, #c1c1c1, #656565);
+  box-shadow:  5px 5px 5px #5f5f5f,
+              -5px -5px 5px #818181;
+              border-radius: 10px;
+
+}
+
+.hidden{
+  display: hidden;
+}
+
+.menu-items {
+  display: none;
+}
+
+.menu-items.active {
+  display: block;
 }
