@@ -241,9 +241,22 @@ background:black;
     
 }
 
+.poP{
+  display: inline-block;
+  color: #ffffff;
+  border-radius: 10px;
+    background: linear-gradient(145deg, #5a4a8a, #855a83);
+    box-shadow:  -3px -3px 5px #707070,
+    
+}
+
 .po p:hover{
   font-size:17px;
   color: #c1e48f;
+}
+
+.poP p:hover{
+  font-size: 16px;
 }
 
 .kdrg{

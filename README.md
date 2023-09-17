@@ -5,8 +5,7 @@ A website of hobbyists.
 
 /**I don't have a plan of offer subsciptions now.**
 
-***
-
+***S
 (Some contents from my website)
 
 /This article is about the situation of this website and something about me. Firstly, because of my studying plans, I don't have the energy to construct this website at a high speed,

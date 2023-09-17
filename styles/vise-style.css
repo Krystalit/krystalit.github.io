@@ -2,7 +2,11 @@ img {
     display: block;
     margin: 0 auto;
   }
-  
+
+  body {
+    background-color: #707070;
+  }
+
   a:link {
     color:#BA93C2;
     text-decoration: none;
@@ -68,7 +72,7 @@ img {
       width:50%;
       height:100%;
       border-radius: 133px;
-      background: #fff9fe;
+      background: linear-gradient(145deg, #707070, #656565);
     }
     
     .itop{
@@ -98,7 +102,7 @@ img {
       -webkit-box-align: center;
       -ms-flex-align: center;
       align-items: center;
-      color: rgba(18, 20, 28, 0.7);
+      color: rgba(168, 170, 179, 0.7);
       position: relative;
       top:30%;
       margin:0;
@@ -108,50 +112,7 @@ img {
       background:#F5F5F5;
       color: #BA93C2;
   }
-  
-  .tag{
-  float:left;
-  height:20px;
-  width:auto;
-  border-radius: 50px;
-  background: linear-gradient(145deg, #c79dd0, #a784af);
-  box-shadow:  20px 20px 60px #9e7da5,
-               -20px -20px 60px #d6a9df;
-  }
-  
-  .tag-inl{
-  display:inline;
-  float:left;
-  height:20px;
-  width:auto;
-  border-radius: 50px;
-  background: linear-gradient(145deg, #c79dd0, #a784af);
-  box-shadow:  20px 20px 60px #9e7da5,
-               -20px -20px 60px #d6a9df;
-  }
-  
-  .cip{
-  width:277.082px;
-  height:auto;
-  }
-  
-  .ct-mp{
-  display:none;
-  }
-  
-  .pv-mp,.pv-mp:hover + .ct-mp,.ct-mp:hover{
-  border-radius: 45px;
-  background: linear-gradient(145deg, #ffffff, #dde6e6);
-  box-shadow:  5px 5px 10px #b3baba,
-               -5px -5px 10px #ffffff;
-  float:left;
-  width:auto;
-  display:inline;
-  }
-  
-  .ctp{
-  margin:0;
-  }
+
   
   .sp3{
   width:10%;
@@ -209,10 +170,11 @@ img {
   }
   
   .ar,.vi,.vif,.vih,.fa,.vip{
-  border-radius: 45px;
-  background: linear-gradient(145deg, #ffffff, #dde6e6);
-  box-shadow:  5px 5px 10px #b3baba,
-               -5px -5px 10px #ffffff;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #707070, #656565);
+    box-shadow:  5px 5px 5px #5f5f5f,
+                 -5px -5px 5px #818181;
+                 border-radius: 50px;
   }
   
   
@@ -248,4 +210,23 @@ img {
   
   li.b:hover{
     font-size:17px;
+  }
+
+  h1{
+    color: #fff;
+    text-align:center;
+    font-family: Source Hans Heavy;
+   }
+   
+   h2{
+     color: #fff;
+     font-family: Source Hans Heavy;
+   }
+
+  p{
+    color: #fff;
+  }
+
+  li{
+    color:#fff;
   }
