@@ -34,10 +34,19 @@
 
     <div class="rtop">
 
+      <div class="menu">
+        <button class="menu-toggle">Search</button>
+        <ul class="menu-items">
+          <li onclick="Search()">百度搜索</li>
+          <li onclick="Searen()">百度百科</li>
+          <li onclick="Searbil()">在哔哩哔哩中搜索</li>
+          <li onclick="Searwu()">无追搜索</li>
+          <li onclick="Searbi()">必应搜索</li>
+        </ul>
+      </div>
+
     <ul class="utop">
 
-        <li class="ltop" onclick="Search()">搜索</li>
-        <li class="ltop" onclick="Searen()">百科</li>
         <li class="ltop"><a href="index.html">主页</a></li>
         <li class="ltop"><a href="https://space.bilibili.com/1540895899">Bilibili</a></li>
         <li class="ltop"><a href="vise-index.html">Videos</a></li>
@@ -114,7 +123,7 @@
 
               <div class="card">
                 <h2>Recent</h2>
-                <p class="nomargin"><a href="krystab.html">Krystab</a></p>
+                <p class="nomargin"><a href="krystab.html">Krystab</a> (Phase 2)</p>
               </div>
 
               <div class="right">
@@ -136,7 +145,7 @@
 
               <div class="math" id="news">
                 <h3 style="margin: 0;">NEWS</h3>
-                <h2>Krystab is in Phase 1</h2>
+                <h2>Krystab is in Phase 2</h2>
                 <p>Our newly-started project <a href="krystab.html">Krystab</a> is now online. In the next few phases there will be more functions in it. Did you say that you just want a clean UI? You are able to choose features you want to use (maybe we will make that happen).</p>
               </div>
               
@@ -314,6 +323,7 @@
 </div>
 
 <script src="scripts/main.js" defer></script>
+<script src="scripts/search.js" defer></script>
 
 </body>
 
