@@ -5,26 +5,24 @@ body {
 /*top*/
 div.top{
 width:100%;
-height:300px;
+height:15%;
 position:fixed;/*保持位置*/
 z-index: 100;
 top:0;
 left:0;
 backdrop-filter: blur(3px);
 box-shadow:0px 0px 15px #bebebe;
-}
-
-.letop{
-float:left;
-width:100%;
-height:100%;
+justify-content: center; 
+align-items: center;
+display: flex;
 }
 
 .itop{
-float:left;
-height:100%;
-width:30%;
-top:0;
+  position:absolute;
+  height: 150px;
+  width:150px;
+  top:20px;
+  left:20px;
 }
 
 .htop{
@@ -141,18 +139,19 @@ h2{
 }
 
 p:hover{
-  font-size:17px;
+  font-size:60px;
   color: #e48f8f;
 }
 
-li.b:hover{
-  font-size:17px;
+li{
+  font-size:60px;
   font-family: Source Hans;
+  color: #fff;
 }
 
 p{
 color: #fff;
-font-size:16px;
+font-size:50px;
 transition: ease 1s;
 font-family: Source Hans;
 }
@@ -188,35 +187,36 @@ h3{
   border-radius: 10px;
 }
 
-.menu{
-  float: left;
-  width:auto;
-  background: linear-gradient(145deg, #c1c1c1, #656565);
-  box-shadow:  5px 5px 5px #5f5f5f,
-              -5px -5px 5px #818181;
-              border-radius: 10px;
-
-}
 
 .hidden{
   display: hidden;
 }
 
-.menu-items {
-  display: none;
-  list-style: none;
-  font-size: 50px;
-}
 
-.menu-items.active {
-  display: block;
-}
-
-.mMenu-toggle{
+.mButton{
   size: 100px;
   font-size: 50px; color: #303070;
   background-color: #9e9e9e;
   border: 10px solid #ba93c263;
   align-self: center;
   border-radius: 10px;
+}
+
+.searchPage{
+  display: none;
+  width: 50%;
+  top:20%;
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+}
+
+.block{
+  width:auto;
+background: linear-gradient(145deg, #707070, #656565);
+}
+
+.spScroll{
+  display: block;
+  height:600px;
 }

@@ -22,17 +22,17 @@
 
 <body>
 <!--导航 Start-->
+
+
 <div class="top">
 
-  <div class="letop">
+  <img class="itop" src="images/Kryst.png"/>
 
-    <img class="itop" src="images/Kryst.png"/>
-    <h2 class="htop">Krystab</h2>
-
-    </div>
-  </div>
+  <h2 class="htop">Krystab</h2>
 
 </div>
+
+
 <!--导航 End-->
 
 <div class="mSptop"></div>
@@ -41,22 +41,32 @@
   <input class="mInput" type="search" placeholder="Search the web" onkeydown="if(event.keyCode==13) {krystab()}"
   id="theInput">
   <button class="mButton" onclick="krystab()">search</button>
+  
+</div>
+<div style="display: flex; justify-content: center; align-items: center;">
+  <button class="mButton" onclick="page()">Search Options and Websites</button>
 </div>
 
-
-<div class="menu">
-  <button class="mMenu-toggle">Websites</button>
- <ul class="menu-items">
-   <li><a href="index.html">主页</a></li>
+<div class="searchPage">
+  <div class="block">
+    <p onclick="foldSearch()">Close</p>
+    <li><a href="index.html">主页</a></li>
     <li><a href="https://fanyi.baidu.com/">Baidu 翻译</a></li>
     <li><a href="https://www.bilibili.com/">Bilibili</a></li>
     <li><a href="https://www.deepl.com/translator">Deepl翻译</a></li>
-   <li><a href="https://www.geogebra.org/">Geogebra</a></li>
+    <li><a href="https://www.geogebra.org/">Geogebra</a></li>
     <li><a href="sitemap.html">Sitemap</a></li>
     <li><a href="http://www.zsqz.com/">ZSQZ</a></li>
     <li><a href="https://www.merriam-webster.com">韦氏词典</a></li>
-  </ul>
+    <li onclick="Search()">百度搜索</li>
+    <li onclick="Searen()">百度百科</li>
+    <li onclick="Searbil()">在哔哩哔哩中搜索</li>
+    <li onclick="Searwu()">无追搜索</li>
+    <li onclick="Searbi()">必应搜索</li>
+  </div>
 </div>
+
+<div class="spScroll"></div>
 
 <script src="scripts/mKrystab.js" defer></script>
 <script src="scripts/search.js" defer></script>

@@ -46,10 +46,14 @@ function krystab() {
 
 }
 
-const menuToggle = document.querySelector('.menu-toggle');
-const menuItems = document.querySelector('.menu-items');
+const searchPage = document.querySelector(".searchPage")
 
-menuToggle.addEventListener('click', function() {
-  menuItems.classList.toggle('active');
 
-});  
+function page(){
+	searchPage.style.display="block";
+
+}
+
+function foldSearch(){
+	searchPage.style.display="none";
+}
