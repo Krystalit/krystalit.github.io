@@ -220,3 +220,22 @@ background: linear-gradient(145deg, #707070, #656565);
   display: block;
   height:600px;
 }
+
+.settingsIcon{
+  margin-top: 15%;
+  width: 150px;
+  height: 150px;
+}
+
+.settings{
+  left:70%;
+}
+
+.setPage{
+  display: none;
+  width: 38%;
+  top:20%;
+  z-index: 100;
+  position: fixed;
+  right: 62%;
+}

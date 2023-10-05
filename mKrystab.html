@@ -21,6 +21,14 @@
 </head>
 
 <body>
+
+<div class="setPage">
+  <div class="block">
+    <p onclick="foldSet()">Close</p>
+    <li onclick="setSearchboxText()">改变搜索框内文字</li>
+    <p>This changes the text in the search box.</p>
+  </div>
+</div>
 <!--导航 Start-->
 
 
@@ -37,9 +45,10 @@
 
 <div class="mSptop"></div>
 
+<img class="settingsIcon" src="icons/Kryicon.png" onclick="pageSet()"/>
 <div style="display: flex; justify-content: center; align-items: center; height: 30vh;">
   <input class="mInput" type="search" placeholder="Search the web" onkeydown="if(event.keyCode==13) {krystab()}"
-  id="theInput">
+  id="sInput">
   <button class="mButton" onclick="krystab()">search</button>
   
 </div>

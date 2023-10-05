@@ -22,7 +22,7 @@
 
 <body>
 
-<!--隐藏搜索页 Start-->
+<!--隐藏页 Start-->
 <div class="searchPage">
   <div class="block">
     <p onclick="foldSearch()">Close</p>
@@ -32,6 +32,14 @@
     <li onclick="Searwu()">无追搜索</li>
     <li onclick="Searbi()">必应搜索</li>
 
+  </div>
+</div>
+
+<div class="setPage">
+  <div class="block">
+    <p onclick="foldSet()">Close</p>
+    <li onclick="setSearchboxText()">改变搜索框内文字</li>
+    <p>This changes the text in the search box.</p>
   </div>
 </div>
 
@@ -50,7 +58,7 @@
     <ul class="utop">
 
         <li class="ltop"><a href="index.html">主页</a></li>
-        <li class="ltop" onclick="page();">search</li>
+        <li class="ltop" onclick="page()">search</li>
         <li class="ltop"><a href="https://space.bilibili.com/1540895899">Bilibili</a></li>
         <li class="ltop"><a href="vise-index.html">Videos</a></li>
         <li class="ltop"><a href="krystab.html">Krystab</a></li>
@@ -60,10 +68,13 @@
 
 </div>
 <!--导航 End-->
+<div class="sptop"></div>
+<div class="sptop"></div>
+
+<img class="settingsIcon" src="icons/Kryicon.png" onclick="pageSet()"/>
 
    <div style="display: flex; justify-content: center; align-items: center; height: 60vh;">
-    <input class="input" type="search" placeholder="Search the web" onkeydown="if(event.keyCode==13) {krystab()}"
-    id="theInput">
+    <input class="input" type="search" placeholder="Search the web" onkeydown="if(event.keyCode==13) {krystab()}" id="sInput">
     <button class="input" onclick="krystab()">search</button>
   </div>
 
