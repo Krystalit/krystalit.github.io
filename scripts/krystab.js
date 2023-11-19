@@ -1,4 +1,4 @@
-//初始化。
+
 var sUserAgent = navigator.userAgent.toLowerCase();
 if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
   window.location.assign("mKrystab.html");             
@@ -15,9 +15,6 @@ if (!localStorage.getItem("storedSearch")) {
 	searchboxText.placeholder = editedSearchboxText;
 
 }
-
-
-
 
 const menuToggle2 = document.querySelector('.menu-toggle2');
 const menuItems2 = document.querySelector('.menu-items2');
@@ -41,3 +38,18 @@ function setSearchboxText() {
 	localStorage.setItem("storedSearch", editedSearchboxText);
 	searchboxText.placeholder = editedSearchboxText;
   }
+
+// browser.pageAction.onClicked.addListener((tab) => {
+//   browser.pageAction.setIcon({
+//     tabId: tab.id,
+//     path:"images/focus.ico",
+
+//   });
+// });
+
+// browser.tabs.onActivated.addListener((activeInfo) => {
+//   browser.pageAction.setIcon({
+//     tabId: activeInfo.tabId,
+//     path: "images/saturate.ico",
+//   });
+// });

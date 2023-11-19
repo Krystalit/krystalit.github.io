@@ -326,14 +326,6 @@ background:black;
   z-index: 1;
 }
 
-.vid1{
-  width:80%; height: 110px;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
 .dict{
   float: left;
   width: 70%;
@@ -597,4 +589,42 @@ background: linear-gradient(145deg, #707070, #656565);
   z-index: 100;
   position: fixed;
   right: 62%;
+}
+
+.vid1{
+  width:80%; height: 110px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+
+
+@keyframes scr {
+	0%,10%{
+		transform: translateY(0);
+	}
+	20%,30%{
+		transform: translateY(-69.44px);
+	}
+	40%,50%{
+		transform: translateY(-138.88px);
+	}
+	60%,70%{
+		transform: translateY(-208.32px);
+	}
+	80%,90%{
+		transform: translateY(-277.76px);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+
+.vid1 .scr {
+	width:100%;
+	height:377.76px;
+	overflow: hidden;
+	position: absolute;
+	animation: scr 25s ease infinite;
 }
