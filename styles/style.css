@@ -605,16 +605,16 @@ background: linear-gradient(145deg, #707070, #656565);
 		transform: translateY(0);
 	}
 	20%,30%{
-		transform: translateY(-69.44px);
+		transform: translateY(-58px);
 	}
 	40%,50%{
-		transform: translateY(-138.88px);
+		transform: translateY(-116px);
 	}
 	60%,70%{
-		transform: translateY(-208.32px);
+		transform: translateY(-174px);
 	}
 	80%,90%{
-		transform: translateY(-277.76px);
+		transform: translateY(-222px);
 	}
 	100%{
 		transform: translateY(0);
@@ -623,8 +623,12 @@ background: linear-gradient(145deg, #707070, #656565);
 
 .vid1 .scr {
 	width:100%;
-	height:377.76px;
+	height:500px;
 	overflow: hidden;
 	position: absolute;
 	animation: scr 25s ease infinite;
+}
+
+.scr h1{
+  margin: 10px;
 }
