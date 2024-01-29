@@ -632,3 +632,7 @@ background: linear-gradient(145deg, #707070, #656565);
 .scr h1{
   margin: 10px;
 }
+.infopic{
+  width: 300px;
+  height: auto;
+}
