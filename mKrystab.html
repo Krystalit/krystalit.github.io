@@ -53,12 +53,12 @@
   
 </div>
 <div style="display: flex; justify-content: center; align-items: center;">
-  <button class="mButton" onclick="page()">Search Options and Websites</button>
+  <button class="mButton" onclick="fold('searchPage')">Search Options and Websites</button>
 </div>
 
-<div class="searchPage">
+<div class="searchPage" id="searchPage">
   <div class="block">
-    <p onclick="foldSearch()">Close</p>
+    <p onclick="fold('searchPage')">Close</p>
     <li><a href="index.html">主页</a></li>
     <li><a href="https://fanyi.baidu.com/">Baidu 翻译</a></li>
     <li><a href="https://www.bilibili.com/">Bilibili</a></li>

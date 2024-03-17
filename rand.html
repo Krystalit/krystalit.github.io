@@ -22,7 +22,21 @@
 </head>
 
 <body>
+<div id="searchPage">
+  <div class="block">
+    <p onclick="fold('searchPage')">Close</p>
+    <li onclick="Search()">百度搜索</li>
+    <li onclick="Searen()">百度百科</li>
+    <li onclick="Searbil()">在哔哩哔哩中搜索</li>
+    <li onclick="Searwu()">无追搜索</li>
+    <li onclick="Searbi()">必应搜索</li>
+    <li onclick="Seardy()">在抖音中搜索</li>
+    <li onclick="Searkg()">在酷狗中搜索</li>
+    <li onclick="Searqy()">在QQ音乐中搜索</li>
+    <li onclick="Searncm()">在网易云音乐中搜索</li>
 
+  </div>
+</div>
     <!--导航 Start-->
 <div class="top">
 
@@ -33,25 +47,11 @@
   
       </div>
   
-      <div class="rtop">
-        <div class="menu">
-            <button class="menu-toggle">Search</button>
-                <ul class="menu-items">
-                    <li onclick="Search()">百度搜索</li>
-                    <li onclick="Searen()">百度百科</li>
-                    <li onclick="Searbil()">在哔哩哔哩中搜索</li>
-                    <li onclick="Searwu()">无追搜索</li>
-                    <li onclick="Searbi()">必应搜索</li>
-                    <li onclick="Seardy()">在抖音中搜索</li>
-                    <li onclick="Searkg()">在酷狗中搜索</li>
-                    <li onclick="Searqy()">在QQ音乐中搜索</li>
-                    <li onclick="Searncm()">在网易云音乐中搜索</li>
-                </ul>
-        </div> 
   
       <ul class="utop">
           <li class="ltop"><a href="index.html">主页</a></li>
           <li class="ltop"><a href="https://space.bilibili.com/1540895899">Bilibili</a></li>
+          <li class="ltop" onclick="fold('searchPage');">search</li>
           <li class="ltop"><a href="ss-index.html">Subscribe</a></li>
       </ul>
   

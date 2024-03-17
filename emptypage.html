@@ -23,9 +23,9 @@
 
 <body>
 <!--隐藏搜索页 Start-->
-<div class="searchPage">
+<div id="searchPage">
   <div class="block">
-    <p onclick="foldSearch()">Close</p>
+    <p onclick="fold('searchPage')">Close</p>
     <li onclick="Search()">百度搜索</li>
     <li onclick="Searen()">百度百科</li>
     <li onclick="Searbil()">在哔哩哔哩中搜索</li>
@@ -54,7 +54,7 @@
     <ul class="utop">
 
         <li class="ltop"><a href="index.html">主页</a></li>
-        <li class="ltop" onclick="page();">search</li>
+        <li class="ltop" onclick="fold('searchPage');">search</li>
         <li class="ltop"><a href="https://space.bilibili.com/1540895899">Bilibili</a></li>
         <li class="ltop"><a href="krystab.html">Krystab</a></li>
     </ul>
