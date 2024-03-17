@@ -161,11 +161,18 @@ a:link {
   background-color: #5e6e8a69;
 }
 
-a:visited {
-  color: green;
+.ap{
+  color:#cacc53;
   text-decoration: none;
   font-family: Source Hans;
-  background-color: #93a6c270;
+  background-color: #5e6e8a69;
+}
+
+a:visited {
+  color: rgb(51, 189, 143);
+  text-decoration: none;
+  font-family: Source Hans;
+  background-color: #6680a750;
 }
 
 a:hover {
@@ -559,7 +566,7 @@ h3{
   border-radius: 5px;
 }
 
-.searchPage{
+#searchPage, #picPage{
   display: none;
   width: 38%;
   top:65px;
@@ -567,6 +574,7 @@ h3{
   position: fixed;
   left: 62%;
 }
+
 
 .block{
   width:auto;
@@ -605,16 +613,16 @@ background: linear-gradient(145deg, #707070, #656565);
 		transform: translateY(0);
 	}
 	20%,30%{
-		transform: translateY(-58px);
+		transform: translateY(-54px);
 	}
 	40%,50%{
-		transform: translateY(-116px);
+		transform: translateY(-112px);
 	}
 	60%,70%{
-		transform: translateY(-174px);
+		transform: translateY(-170px);
 	}
 	80%,90%{
-		transform: translateY(-222px);
+		transform: translateY(-220px);
 	}
 	100%{
 		transform: translateY(0);

@@ -77,14 +77,12 @@ function krystab() {
 
 }
 
-const searchPage = document.querySelector(".searchPage")
+function fold(elementId) {
+    const element = document.getElementById(elementId);
 
-
-function page(){
-	searchPage.style.display="block";
-
-}
-
-function foldSearch(){
-	searchPage.style.display="none";
+    if (element.style.display === "none") {
+        element.style.display = "block"; // Show the element
+    } else {
+        element.style.display = "none"; // Hide the element
+    }
 }

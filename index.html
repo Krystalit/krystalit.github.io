@@ -7,7 +7,7 @@
 <html lang="en">
 <meta charset="utf-8">
 
-<title>Krystallos Homepage</title>
+<title>Krystalit</title>
 
     <meta name="author" content="Krystallos Corporation">
     <meta name="description" content="Krystallos is a relatively great
@@ -20,12 +20,11 @@
     <link href="styles/style.css" rel="stylesheet">
 
 </head>
-
 <body>
 <!--隐藏搜索页 Start-->
-<div class="searchPage">
+<div id="searchPage">
   <div class="block">
-    <p onclick="foldSearch()">Close</p>
+    <p onclick="fold('searchPage')">Close</p>
     <li onclick="Search()">百度搜索</li>
     <li onclick="Searen()">百度百科</li>
     <li onclick="Searbil()">在哔哩哔哩中搜索</li>
@@ -39,31 +38,20 @@
   </div>
 </div>
 
-<div class="top">
-
-  <div class="letop">
-
-    <img class="itop" src="images/Kryst.png"/>
-    <h2 class="htop">Krystallos 主页</h2>
-
-    </div>
-
-    <div class="rtop">
-    <ul class="utop">
-
-        <li class="ltop"><a href="index.html">主页</a></li>
-        <li class="ltop" onclick="page();">search</li>
-        <li class="ltop"><a href="https://space.bilibili.com/1540895899">Bilibili</a></li>
-        <li class="ltop"><a href="krystab.html">Krystab</a></li>
-    </ul>
+<div id="picPage">
+  <div class="block">
+    <p onclick="fold('picPage')">Close</p>
+    <p>PCB Photo by <a href="https://pixabay.com/zh/users/blickpixel-52945/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=453758">Michael Schwarzenberger </a>on <a href="https://pixabay.com/zh//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=453758">Pixabay</a></p>
+    <p>Desk and Laptop Photo by <a href="https://pixabay.com/zh/users/startupstockphotos-690514/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593327">StartupStockPhotos </a>on <a href="https://pixabay.com/zh//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593327">Pixabay</a></p>
+    <p>Old Book Photo by <a href="https://pixabay.com/zh/users/jarmoluk-143740/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=436498">Michal Jarmoluk </a>on <a href="https://pixabay.com/zh//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=436498">Pixabay</a></p>
 
   </div>
-
 </div>
-<!--导航 End-->
+<div class="homepage"></div>
 
-<!--首页 Start-->
-<div id="top" class="frontpage">
+<li class="ltop" onclick="fold('searchPage');">search</li>
+
+<div class="left">
 
 
   <div class="vid1"style="background: url(images/texture.png);background-size: 140%;">
@@ -76,275 +64,13 @@
         <h1><a href="https://github.com/Krystalit/krystalit.github.io">Github Page</a></h1>
       </div>
   </div>
-
-  <div class="vid" style="background: url(images/desklaptop.jpg); background-size: 150%; background-attachment: fixed;">
-    <h1>Krystallos</h1>
-    <h2>What is this? - A site of a hobbyist.</h2>
-              <div class="card">
-                <h2>Links</h2>
-                <p><a href="sitemap.html">Sitemap</a></p>
-                <p><a href="#beforeusing">Before Using</a></p>
-                <p><a href="https://space.bilibili.com/946974">MediaStorm</a></p>
-                </div>
-              <div class="right">
-                <p>Krystallos is a relatively great
-                  website, why, you might ask, for it is !!relatively!! great.Actually, Developers may think this is.</p>
-                <p> This is a sketch for now,but don't worry, read some poems,</p>
-                <p> or learn about our <a href="vise-index.html">update plan</a>!</p>
-              </div>
-              <div class="right">
-                <img src="images/Kryst.png" alt="My logo: Kryst , some figures." style="width: 100px">
-                
-                <p><a href="article//article1.html">Article 1</a> This article is about the situation of this website and something about me (未完成, NOT FINISHED)</p>
-                <p><a href="paperbulb/paperbulb.html">Paperbulb</a> is one of our recent projects.</p>
-              </div>
-  </div>
-
-
-  <div id=roll1 class="mSelect" style="background: url(images/oldbooks.jpg); background-size: 350%;">
-     <div class="sptop"></div>
-    <h1><a href="poem.html">Poem</a> (测试, test version)</h1>
-
-    <div class="TransIn">
-      <div class="wrapper">
-        <div class="data">
-        <div class="content">
-          <h1>功能</h1>
-          <p><a href="https://fanyi.baidu.com/">Baidu 翻译</a></p>
-          <p><a href="https://www.deepl.com/translator">Deepl翻译</a></p>
-          <p><a href="https://www.bilibili.com/">Bilibili</a></p>
-          <p><a href="https://space.bilibili.com/12434430">LinusTechTips</a></p>
-          <p><a href="https://space.bilibili.com/946974">MediaStorm</a></p>
-          <p><a href="https://www.baidu.com/s?ie=UTF-8&wd=googletranslate">maybe GoogLe翻译</a></p>
-        </div>
-        </div>
-     </div>
-    </div> 
-
-  </div>  
-
-
 </div>
 
-    <div class="lefront">
-
-            <div class="ar">
-
-              <div class="card">
-                <h2>Recent</h2>
-                <p class="nomargin"><a href="krystab.html">Krystab</a> (Phase 2)</p>
-              </div>
-
-              <div class="right">
-                <h2>For study!</h2>
-                <p class="bb">Learn from <a href="https://developer.mozilla.org">Mozilla</a>!</p>
-              </div>
-
-              <div class="right">
-                <h2>Songs Available Maybe?</h2>
-                <p>Check out <a href="https://space.bilibili.com/1540895899">my space on Bilibili</a>!</p>
-              </div>
-            
-              <div class="dict">
-                <h2>Let's go to dictionary.Com!</h2>
-                <p><a href="https://www.dictionary.com/e/word-of-the-day/">Word of The Day</a></p>
-                <div class="sptop"></div>
-                <h2>Also: <a href="https://www.merriam-webster.com/word-of-the-day">merriam.Webster's Word of The Day</a></h2>
-              </div>
-
-              <div class="math" id="news">
-                <h3 style="margin: 0;">NEWS</h3>
-                <h2>Krystab is in Phase 2</h2>
-                <p>Our newly-started project <a href="krystab.html">Krystab</a> is now online. In the next few phases there will be more functions in it. Did you say that you just want a clean UI? You are able to choose features you want to use (maybe we will make that happen).</p>
-              </div>
-              
-              <h2>Frequently used website and interesting ones</h2>
-              <a href="https://github.com/">Github </a><a href="https://member.bilibili.com/platform/home?spm_id_from=333.851.b_696e7465726e6174696f6e616c486561646572.30/">Bilibili Content Creation Center </a>
-              <a href="https://www.remove.bg/">Background Remove </a><a href="https://convertio.co/zh/image-converter/">Convertio </a>
-              <h2>Story of The Website</h2>
-              <p>I came with the idea of building a website back in 2021, and kind of learned it for a few months.</p>
-              <p>Finally I uploaded it onto <a href="https://github.com/">Github</a> on <b class="vio">August 17th,2021</b>.</p>
-              <p>Since I don't have much to say, in the starting few months, it wasn't a website with lots of articles and so on.</p>
-              <p>Many features that went through my head just can not be one part of this.</p>
-              <p>But now,I've got this nice-looking website (If you agree) with a few features already.</p>
-              <p>More importantly,I tried so many times, thus gave me experience, and it is good experience that matters.</p>
-                <p>It's actually much more difficult than I said,but it's also difficult to describe how I did this,too.</p>
-                <h3>If you want to try it too</h3>
-                <p>There are many instructions that you can follow,just give yourself a try.</p>             
-            </div>
-
-
-    </div>
-
-    <div class="rifront">
-      <div class="po" style="width: 100%;">
-        <p>我们的愿景</p>
-        <h2>
-          Stay Active!
-        </h2>
-        <h2>
-          Stay Creative!
-        </h2>
-      </div>
-          <div class="ar">
-
-          <h2 class="mid">涉江采芙蓉</h2>
-          <p>涉江采芙蓉，兰泽多芳草。</p>
-          <p>采之欲遗谁？所思在远道。</p>
-          <p>还顾望旧乡，长路漫浩浩。</p>
-          <p>同心而离居，忧伤以终老。</p>
-        </div>
-
-        <div class="po">
-
-          <h2 class="mid">I have got some poems to share!</h2>
-          <h3>CHECK THE NEW "POEMS PAGE" I CREATED</h3>
-          <p>The page includes several not only famous but also interesting Chinese poems. Some told stories, some described the Moon(like "Jing Ye Si by fameous poet <a href="https://baike.baidu.com/item/%E6%9D%8E%E7%99%BD/1043">Li Bai</a>).</p>
-          <p>The page also contains some "poems" by me. I don't think they are pretty good, and honestly, I doubt if they are poems.(But I just put them anyway.)</p>
-         
-
-          <h3>ABOUT POEMS</h3>
-          <p>According to Baidu Baike, <a href="https://baike.baidu.com/item/%E8%AF%97%E6%AD%8C/5555">Poetry</a>is a literary genre that expresses emotions and aspirations. It is a literary genre that uses highly condensed language to vividly express the author's rich emotions, reflects social life, and has a certain rhythm.</p>
-          <p><a href="poem.html">Poems Page</a> (测试, test version)</p>
-
-          <h3>FAMOUS POETS</h3>
-          <p><a href="https://www.baidu.com/s?ie=UTF-8&wd=Tomas%20Transtr%C3%B6mer">Tomas Tranströmer</a><i>(Baidu Search)</i></p>
-          <p><a href="https://www.baidu.com/s?ie=utf-8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=Alexander%20Pushkin">Alexander Pushkin</a>(Александр Сергеевич Пушкин), <i>(Baidu Search)</i></p>
-          <p><a href="https://www.baidu.com/s?ie=utf-8&rsv_bp=1&rsv_idx=1&tn=baidu&wd=William%20Shakespeare">William Shakespeare</a><i>(Baidu Search)</i></p>
-          <p><a href=""></a><i>(Baidu Search)</i></p>
-        </div>
-
-    </div>
-
-  </div>
-
-<!--首页 End-->
-<!--库 Start-->
-
-<div><p>//////////////////</p></div>
-
-<div class="spbig"></div>
-
-<div class="project">
-  <div class="po">
-
-    <h1>Krystallos Design Rating System</h1>
-      <p>这是一个并不标准的设计评分系统，主要用途是娱乐</p>
-      <p>以下为较强的主观内容，请谨慎使用。</p>
-
-    <span class="kdr">
-
-      <kdrs>
-        <h2>总分 10</h2>
-        <ul>布局&结构 <b>20%</b></ul>
-        <ul>字体 <b>20%</b></ul>
-        <ul>色系 <b>10%</b></ul>
-        <ul>对比度 <b>10%</b></ul>
-        <ul>动效 <b>10%</b></ul>
-        <ul>线条&图象 <b>10%</b></ul>
-        <ul>自定义 <b>10%</b></ul>
-        <ul>图片 <b>10%</b></ul>
-      </kdrs>
-
-      <kdrg>
-        <h2>额外分 最多2</h2>
-        <ul>内容 <b>1~3</b></ul>
-        <ul>图片 <b>1</b></ul>
-        <ul>无动效<i>(如印刷物)</i> <b>图片占比+10%</b></ul>
-      </kdrg>
-
-      <kdrg>Gold 10.9+</kdrg>
-      <kdrs>Sliver 10~10.9</kdrs>
-    </span>
-
-    <p>Updated:Oct 24th,2022 Alpha ver.0.0.1</p>
-  </div>
-
-  <div class="po">
-    <h1>What is Rickroll ?</h1>
-    <p>Rickroll is a very interesting thing that you can find online.</p>
-    <p>link:(bilibili) <a href="https://www.bilibili.com/video/BV1GJ411x7h7">Never Gonna Give You Up</a><p></p>
-    <p>The song <i>Never Gonna Give You Up</i> plays the main role.</p>
-    <div class="sptop"></div>
-    <h2>Details</h2>
-    <p>Somebody might send you a website or something,</p>
-    <p>If you open it, and the song <i>Never Gonna Give You Up</i> are played,then you are "rickroll"ed.</p>
-  </div>
-
-  <div class="po">
-    <h1>About Rhythm Games</h1>
-    <h2 class="mid">or MUG</h2>
-    <p>MUG is a kind of video game.</p>
-    <p>Let's go to our <a href="music-index.html">Music page</a>!</p>
-
-  </div>
-
-  <div class="po">
-    <h1>Hello, world</h1>
-    <h2 class="mid">the test site</h2>
-    <p>This is a paragraph.</p>
-
-    <div class="left">
-
-      <h2 class="mid">BETA FUNCTION</h2>
-      <a href="rand.html"><img src="images/KryCursweb.png" alt="Random Number Generator" title="Random Number Generator"></a>
-
-    </div>
-
-    <div class="right">
-
-      <h2>My Plans of Projects</h2>
-      <a href="paperbulb/paperbulb.html"><img src="images/wave.png" alt="Paperbulb" title="Paperbulb">Paperbulb</a>
-
-    </div>
-
-    <p>You can get back to <a href="#top">top</a></p>
-
-  </div>
-
-  <div class="clock">
-    <div class="clock__block clock__block--delay2" data-time-group>
-      <div class="clock__digit-group">
-        <div class="clock__digits" data-time="a">x</div>
-      </div>
-    </div>
-    <div class="clock__colon"></div>
-    <div class="clock__block clock__block--delay1" data-time-group>
-      <div class="clock__digit-group">
-        <div class="clock__digits" data-time="a">x</div>
-      </div>
-    </div>
-    <div class="clock__colon"></div>
-    <div class="clock__block"  data-time-group>
-      <div class="clock__digit-group">
-        <div class="clock__digits" data-time="a">x</div>
-      </div>
-    </div>
-  </div>
-
-</div>
-
-<div class="left">
-
-  <h1>Relating Links<h1>
-
-  <p>PCB Photo by <a href="https://pixabay.com/zh/users/blickpixel-52945/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=453758">Michael Schwarzenberger </a>on <a href="https://pixabay.com/zh//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=453758">Pixabay</a></p>
-  <p>Desk and Laptop Photo by <a href="https://pixabay.com/zh/users/startupstockphotos-690514/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593327">StartupStockPhotos </a>on <a href="https://pixabay.com/zh//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593327">Pixabay</a></p>
-  <p>Old Book Photo by <a href="https://pixabay.com/zh/users/jarmoluk-143740/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=436498">Michal Jarmoluk </a>on <a href="https://pixabay.com/zh//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=436498">Pixabay</a></p>
-
-  <h1>Developer's info</h1>
-  <p class="mid"><a href="devinfo.html">devinfo page</a></p>
-</div>
-
-<div id="beforeusing" class="right">
-  <h1>You Should Know / 须知</h1>
-  <p>使用krystalit.github.io前请认真阅读以下内容</p>
-  <p>Please read the following carefully before using krystalit.github.io</p>
-  <p>此网站目前的主要用途是供我当作浏览器主页与供我学习编程。</p>
-  <p>通过本站点提供的信息仅供参考，并且它们可能包括排版错误或不准确之处。我们将不对这些不准确和错误负责。</p>
-  <p>本站点可能包括到其他网站、应用程序和平台的链接（以下简称“链接网站”）。我们不控制链接网站，也不对链接网站的内容和其他材料负责。我们将这些链接提供给您，以提供网站上的功能或服务。</p>
-  <p>请勿使用此网站用作非法用途</p>
-  <p>我们会在不通知您的情况下更新这些规定, 请您理解与支持。</p>
+<div id="beforeusing" class="right">\
+  <p class="ap" onclick="fold('picPage')">Picture Acknowledgement</p>
+  <p><a href="legacyindex.html">The Legacy index.html</a></p>
+  <p><a href="article/article1.html">Before using this site</a></p>
+  <p><a href="devinfo.html">devinfo page</a></p>
 </div>
 
 </div>
