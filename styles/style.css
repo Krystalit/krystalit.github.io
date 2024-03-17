@@ -200,7 +200,19 @@ p:hover{
   color: #e48f8f;
 }
 #news a:visited{
-  color: #224dc4;
+  color: #3cd6eb;
+  background-color: #313e50be;
+}
+
+#news p:hover{
+  background-color: #313e50be;
+  color: #fff;
+  font-size:16px;
+}
+
+h1:hover{
+  background-color: #313e50be;
+  transition: ease 1s;
 }
 
 .music:hover{
@@ -600,7 +612,7 @@ background: linear-gradient(145deg, #707070, #656565);
 }
 
 .vid1{
-  width:80%; height: 110px;
+  width:100%; height: 110px;
   float: left;
   overflow: hidden;
   position: relative;
