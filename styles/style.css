@@ -1,5 +1,5 @@
 body {
-  background-color: #707070;
+  background-color: #1e1e1e;
 }
 
 /*top*/
@@ -220,10 +220,6 @@ h1:hover{
   color: #aacb7b;
 }
 
-li.b:hover{
-  font-size:17px;
-  font-family: Source Hans;
-}
 
 p{
 color: #fff;
@@ -287,25 +283,6 @@ background:black;
   font-size: 16px;
 }
 
-.kdrg{
-  display: inline-block;
-  color: #ffffff;
-  border-radius: 10px;
-    background: linear-gradient(145deg, #c0a664, #e3993a);
-    box-shadow:  -3px -3px 5px #707070,
-    
-}
-
-
-.kdrs{
-  display:inline-block;
-  color: #ffffff;
-  border-radius: 10px;
-    background: linear-gradient(145deg, #6464c0, #95abdf);
-    box-shadow:  -3px -3px 5px #707070,
-  
-    
-}
 
 ::selection{
 	background:#F5F5F5;
@@ -320,42 +297,6 @@ background:black;
   z-index: 1
 }
 
-.TransIn .wrapper:hover .data {
-  transform: translateY(0);
-}
-.TransIn .data {
-  position: absolute;
-  bottom: 0;
-  width: auto;
-  transform: translateY(90px);
-  transition: 0.3s;
-}
-.TransIn .data .content {
-  padding: 10px;
-  position: relative;
-  z-index: 1;
-}
-
-.content {
-  background-color: #949494d2;
-  box-shadow: 0 5px 20px 10px rgba(0, 0, 0, 0.4);
-}
-
-.vid{
-  width:80%; height: 430px;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
-.dict{
-  float: left;
-  width: 70%;
-  height: 300px;
-  background: url(../images/oldbooks.jpg);
-  color: #ffffff;
-}
 
 .left{
   float: left;
@@ -388,82 +329,23 @@ background:black;
   font-size: 30px;
 }
 
-.math{
-  float: left;
-  background: url(../images/eboard.jpg);
-}
-
-.card{
-  float: left;
-  width: 20%;
-  height: auto;
-  color: #656565;
-}
-
-
-span{
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
-  display: grid;
-  border-radius: 4px;
-  place-items: center;
-}
-
-span kdrg {
-  background: linear-gradient(145deg, #c0a664, #e3993a);
-  box-shadow:  -3px -3px 5px #707070,
-}
-span kdrs{
-  background: linear-gradient(145deg, #6464c0, #95abdf);
-  box-shadow:  -3px -3px 5px #707070,
-}
-
-span.kdr {
-  grid-template: "sidebar mainA" "sidebar mainB";
-}
-span.kdr > :nth-child(1) {
-  grid-area: sidebar;
-}
-
-
-.vio{
-
-  text-shadow: 1.5px 1.5px #2b1c48; color: #303070;
-}
-
-h3{
-  color: whitesmoke;
-}
-
-.nomargin{
-  margin: 0;
-}
 
 .input{
   size: 100px;
-  font-size: 30px; color: #303070;
-  background-color: #9e9e9e;
-  border: 10px solid #ba93c263;
+  font-size: 30px; color: #15152e;
+  background-color: #4b4141;
+  border: 10px solid #45374763;
   align-self: center;
   border-radius: 10px;
 }
 
-.menu{
-  float: left;
-  width:auto;
-  background: linear-gradient(145deg, #c1c1c1, #656565);
-  box-shadow:  5px 5px 5px #5f5f5f,
-              -5px -5px 5px #818181;
-              border-radius: 10px;
-
-}
 
 .menu2{
   float: left;
   width:auto;
-  background: linear-gradient(145deg, #c1c1c1, #656565);
+  background: linear-gradient(145deg, #656565, #1e1e1e);
   box-shadow:  5px 5px 5px #5f5f5f,
-              -5px -5px 5px #818181;
-              border-radius: 10px;
+
 
 }
 
@@ -471,17 +353,7 @@ h3{
   display: hidden;
 }
 
-.menu-items {
-  display: none;
-  list-style: none;
-  align-items: center;
-}
 
-.menu-items.active {
-  float:left;
-  display: inline;
-
-}
 
 .menu-items2.active {
   float:left;
@@ -528,14 +400,6 @@ h3{
 background: linear-gradient(145deg, #707070, #656565);
 }
 
-.settingsIcon{
-  width: 50px;
-  height: 50px;
-}
-
-.settings{
-  left:70%;
-}
 
 .setPage{
   display: none;
@@ -544,14 +408,6 @@ background: linear-gradient(145deg, #707070, #656565);
   z-index: 100;
   position: fixed;
   right: 62%;
-}
-
-.vid1{
-  width:100%; height: 100%;
-  float: left;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
 }
 
 
