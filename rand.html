@@ -52,7 +52,6 @@
           <li class="ltop"><a href="index.html">主页</a></li>
           <li class="ltop"><a href="https://space.bilibili.com/1540895899">Bilibili</a></li>
           <li class="ltop" onclick="fold('searchPage');">search</li>
-          <li class="ltop"><a href="ss-index.html">Subscribe</a></li>
       </ul>
   
     </div>
@@ -62,15 +61,23 @@
     <div class="sptop"></div>
     <div class="ar">
 
-        <p>单击下面的div后生成的随机数是: This is the number generated after you clicked the div:</p>
+        <p>单击下面的按钮后生成的随机数是: This is the number generated after you clicked the button:</p>
         <p id="num" style="font-size: 100px; text-align: center;"></p>
+        <div class="mid">
 
-        <div class="ar" onclick="generate()">
+          <div class="poP" onclick="generate()">
 
-            <p>Click here to generate an integer from one to ten (containing one and ten)</p>
-            <p>点击这里来生成一个从一到十的整数（包含一与十）</p>
+            <p>Click here to generate an integer from <input class="inputRand" placeholder="1" id="rand1" value="1"></input> to <input class="inputRand" placeholder="10" id="rand2" value="10"></input> (containing [ENTERED NUMBERS])</p>
+            <p>点击这里来生成一个从[设定值]到[设定值]的整数（取到[设定值]）</p>
     
+          </div>
+
+        <h2>Why NaN? 为什么是NaN?</h2>
+        <p>NaN stands for "<u>N</u>ot <u>a</u> <u>N</u>umber". NaN是“<u>N</u>ot <u>a</u> <u>N</u>umber(不是一个数字)"</p>
+        <p>Maybe you did not enter a number correctly. 也许您未正确输入数字。</p>
+
         </div>
+        
 
     </div>
 
@@ -78,14 +85,17 @@
 
     <div class="ar">
 
-        <p>同上，但是可生成十个随机数: Generate 10 numbers with the same rules</p>
+        <p>生成十个随机数: Generate 10 numbers [1,10]</p>
         <p id="numLot" style="font-size: 30px; text-align: center;"></p>
-
-        <div class="ar" onclick="genTen()">
+        <div class="mid">
+          <div class="poP" onclick="genTen()">
 
             <p>Click here 点击</p>
     
+          </div>
+
         </div>
+
 
 
     </div>

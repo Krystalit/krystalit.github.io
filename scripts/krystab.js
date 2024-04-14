@@ -38,18 +38,3 @@ function setSearchboxText() {
 	localStorage.setItem("storedSearch", editedSearchboxText);
 	searchboxText.placeholder = editedSearchboxText;
   }
-
-// browser.pageAction.onClicked.addListener((tab) => {
-//   browser.pageAction.setIcon({
-//     tabId: tab.id,
-//     path:"images/focus.ico",
-
-//   });
-// });
-
-// browser.tabs.onActivated.addListener((activeInfo) => {
-//   browser.pageAction.setIcon({
-//     tabId: activeInfo.tabId,
-//     path: "images/saturate.ico",
-//   });
-// });
