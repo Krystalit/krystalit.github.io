@@ -37,4 +37,4 @@ function setSearchboxText() {
 	let editedSearchboxText = prompt("请输入搜索框中文字");
 	localStorage.setItem("storedSearch", editedSearchboxText);
 	searchboxText.placeholder = editedSearchboxText;
-  }
+}
