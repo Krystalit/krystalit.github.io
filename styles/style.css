@@ -243,6 +243,7 @@ text-align:center;
 font-family: Source Hans Heavy;
 }
 
+
 .dg{
 color:darkgrey;
 background:black;
@@ -421,7 +422,7 @@ background:black;
 
 .block{
   width:auto;
-background: linear-gradient(145deg, #707070, #656565);
+background: linear-gradient(145deg, #373737, #656565);
 }
 
 
@@ -472,6 +473,7 @@ background: linear-gradient(145deg, #707070, #656565);
 .infopic{
   width: 300px;
   height: auto;
+  text-align:  center;
 }
 
 .dW4{
@@ -516,4 +518,21 @@ background: linear-gradient(145deg, #707070, #656565);
   background-color: #1e1e1e;
   width: 100vw;
   height: 100vh;
+}
+
+.dev .poP{
+  display: inline;
+  float: left;
+  width: 60%;
+  background: linear-gradient(145deg, #261f3c, #372936);
+}
+
+.dev .po{
+  display: inline;
+  float: left;
+  width: 40%;
+}
+
+.homepage h3{
+  color: #ffffff;
 }
