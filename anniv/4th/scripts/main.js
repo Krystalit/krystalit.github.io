@@ -1,5 +1,5 @@
 document.getElementById('download').addEventListener('click', function() {
-    var fileURL = "cursor_file/krystallos.zip"; // 替换为你的文件路径
+    var fileURL = "../cursor_file/krystallos.zip"; // 替换为你的文件路径
     var fileName = 'Krystallos.zip'; // 替换为下载时显示的文件名
 
     var link = document.createElement('a');
