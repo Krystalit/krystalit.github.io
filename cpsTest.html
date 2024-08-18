@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!-- 用于保证文档正常读取 -->
+<html>
+
+<head>
+
+<html lang="en">
+<meta charset="utf-8">
+
+<title>CPS Test</title>
+
+    <meta name="author" content="Krystallos Corporation">
+    <meta name="description" content="Krystallos is a relatively great
+    website, why, you might ask, for it is !!relatively!! great.Actually, Developers may think this is.">
+    <meta name="keywords" content="develop,Krystallos,Krystallos Corporation,qz,Quartz,Quartziii">
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="images/favicon.ico">
+
+    <link href="styles/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+<!--隐藏搜索页 Start-->
+<div id="searchPage">
+  <div class="block">
+    <p onclick="fold('searchPage')">Close</p>
+    <li onclick="Search()">百度搜索</li>
+    <li onclick="Searen()">百度百科</li>
+    <li onclick="Searbil()">在哔哩哔哩中搜索</li>
+    <li onclick="Searwu()">无追搜索</li>
+    <li onclick="Searbi()">必应搜索</li>
+    <li onclick="Seardy()">在抖音中搜索</li>
+    <li onclick="Searkg()">在酷狗中搜索</li>
+    <li onclick="Searqy()">在QQ音乐中搜索</li>
+    <li onclick="Searncm()">在网易云音乐中搜索</li>
+
+  </div>
+</div>
+<div class="sptop">
+</div>
+
+<div class="top">
+
+  <div class="letop">
+
+    <img class="itop" src="images/Kryst.png"/>
+    <h2 class="htop">CPS Test</h2>
+
+    </div>
+
+    <div class="rtop">
+    <ul class="utop">
+
+        <li class="ltop"><a href="index.html">主页</a></li>
+        <li class="ltop" onclick="fold('searchPage');">search</li>
+        <li class="ltop"><a href="https://space.bilibili.com/1540895899">Bilibili</a></li>
+        <li class="ltop"><a href="krystab.html">Krystab</a></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<div class="mid">
+    <p>Press the button, then the test will begin in 3 seconds.</p>
+    <button onclick="countStart()" class="input">Get Ready</button>
+    <p id="timeStart"></p>
+    
+</div>
+<div class="poCPS centered" onclick="updateClickCount()" id="CPS">
+    <div class="mid"><b id="count">Click Count</b>  |  <b id="timePast">Time Past</b></div>
+</div>
+    
+
+
+<div id="clickableDiv" class="centered unselectable">Clicks: 0</div>
+
+<div id="timer" class="poP">Timer: 10</div>
+
+
+<script src="scripts/main.js" defer></script>
+<script src="scripts/search.js" defer></script>
+<script src="scripts/cpsTest.js" defer></script>
+
+</body>
+
+</html>

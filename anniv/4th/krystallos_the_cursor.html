@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- 用于保证文档正常读取 -->
+<html>
+
+<head>
+
+<html lang="en">
+<meta charset="utf-8">
+
+<title>Krystallos the Cursor</title>
+
+    <meta name="author" content="Krystallos Corporation">
+    <meta name="description" content="Krystallos is a relatively great
+    website, why, you might ask, for it is !!relatively!! great.Actually, Developers may think this is.">
+    <meta name="keywords" content="develop,Krystallos,Krystallos Corporation,qz,Quartz,Quartziii">
+
+    <link rel="icon" href="../../images/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="../../images/favicon.ico">
+
+    <link href="styles/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="aColor">
+    <h3>&emsp;&emsp;geometric simplicity</h3>
+    <h1>&emsp;Krystallos <i>preview</i></h1>
+
+    <div class="w7">
+        <p>&emsp;We just introduced our new cursor design.</p>
+        <p>&emsp;<a id="download">Download</a></p>
+    </div>
+    <div class="w3">
+        <img class="imgRight" src="images/KryCur1.png" alt="a cursor picture"></img>
+    </div>
+
+</div>
+
+<div class="aColor">
+    <h2>&emsp;Download Instructions</h2>
+    <p>Click Download, unzip it, run install.inf.</p>
+    <div class="w7">
+        <h3>Check the codes in the script</h3>
+        <h4>to better verify file safety</h4>
+    </div>
+    <div class="w3">
+        <textarea readonly style="white-space: pre-wrap;" class="full" rows="10">
+            [Version]
+            signature="$CHICAGO$"
+            
+            [DefaultInstall]
+            CopyFiles = Scheme.Cur, 
+            AddReg    = Scheme.Reg
+            
+            [DestinationDirs]
+            Scheme.Cur = 10,"%CUR_DIR%"
+            Scheme.Txt = 10,"%CUR_DIR%"
+            
+            [Scheme.Reg]
+            HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%
+            
+            
+            ; -- Common Information
+            
+            
+            [Scheme.Cur]
+            "KryCur.cur"
+            "Hint.cur"
+            "BusyMouse.cur"
+            "Busy.cur"
+            "accuS.cur"
+            "Inpu.cur"
+            "Pen.cur"
+            "Ban.cur"
+            "UtoDo.cur"
+            "LtoRi.cur"
+            "Wasd.cur"
+            "Wdas.cur"
+            "Aw.cur"
+            "Up.cur"
+            "ClickLink.cur"
+            "pin.cur"
+            "Person.cur"
+            
+            [Strings]
+            CUR_DIR         = "Cursors\Krystallos"
+            SCHEME_NAME       = "Krystallos"
+            pointer		= "KryCur.cur"
+            help		= "Hint.cur"
+            work		= "BusyMouse.cur"
+            busy		= "Busy.cur"
+            cross		= "accuS.cur"
+            text		= "Inpu.cur"
+            hand		= "Pen.cur"
+            unavailiable	= "Ban.cur"
+            vert		= "UtoDo.cur"
+            horz		= "LtoRi.cur"
+            dgn1		= "Wasd.cur"
+            dgn2		= "Wdas.cur"
+            move                       = "Aw.cur"
+            alternate	                = "Up.cur"
+            link		= "ClickLink.cur"
+            pin		= "pin.cur"
+            person		= "Person.cur"</textarea>
+    </div>
+</div>
+
+<script src="scripts/main.js" defer></script>
+<script src="scripts/search.js" defer></script>
+
+</body>
+
+</html>

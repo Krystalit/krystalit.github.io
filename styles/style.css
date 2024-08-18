@@ -275,6 +275,33 @@ background:black;
     
 }
 
+.poCPS{
+
+  width: 60vw;
+  height: 50vh;
+  align-items: center;
+  display: block;
+  border-radius: 8px;
+  user-select: none; /* Prevent text selection */
+  cursor: pointer;
+  color: #ffffff;
+  border-radius: 10px;
+    background: linear-gradient(145deg, #5a4a8a, #855a83);
+    box-shadow:  -3px -3px 5px #707070,
+  
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.unselectable {
+  user-select: none;
+}
+
 .poC{
   width: 90%;
   height: 50vh;
@@ -535,4 +562,8 @@ background: linear-gradient(145deg, #373737, #656565);
 
 .homepage h3{
   color: #ffffff;
+}
+
+.center{
+  justify-content: center;
 }
