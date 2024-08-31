@@ -279,7 +279,6 @@ background:black;
 
   width: 60vw;
   height: 50vh;
-  align-items: center;
   display: block;
   border-radius: 8px;
   user-select: none; /* Prevent text selection */
